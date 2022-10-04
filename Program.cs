@@ -10,6 +10,17 @@ namespace HellowMethods2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Methods 2.0");
+
+            int score = 0;
+            Addscore(100);
+
+                Console.ReadKey(true);
+        }
+
+        static void Addscore(int pointsEarned)
+        {
+            score = score + pointsEarned;
         }
     }
 }
